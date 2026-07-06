@@ -1,1 +1,297 @@
-(function(_0x2049dd,_0x1c5aeb){const _0x4bc53e=_0x89fe,_0x29f311=_0x2049dd();while(!![]){try{const _0x4c4b72=-parseInt(_0x4bc53e(0x104))/0x1+-parseInt(_0x4bc53e(0x101))/0x2*(-parseInt(_0x4bc53e(0x116))/0x3)+-parseInt(_0x4bc53e(0x124))/0x4*(-parseInt(_0x4bc53e(0x122))/0x5)+parseInt(_0x4bc53e(0x137))/0x6+-parseInt(_0x4bc53e(0xf6))/0x7+-parseInt(_0x4bc53e(0x11e))/0x8+-parseInt(_0x4bc53e(0x105))/0x9*(-parseInt(_0x4bc53e(0x159))/0xa);if(_0x4c4b72===_0x1c5aeb)break;else _0x29f311['push'](_0x29f311['shift']());}catch(_0xac8b7a){_0x29f311['push'](_0x29f311['shift']());}}}(_0x2dd8,0xa3e85),(function(){'use strict';const _0x5bb7b6=_0x89fe;const _0x29883f=_0x5bb7b6(0x10d);let _0x59dd8a=localStorage['getItem']('premium_key');const _0x22bdee=document[_0x5bb7b6(0x107)](_0x5bb7b6(0x130));_0x22bdee[_0x5bb7b6(0x151)]=_0x5bb7b6(0x121),_0x22bdee[_0x5bb7b6(0x154)]=_0x5bb7b6(0x158),document[_0x5bb7b6(0x140)][_0x5bb7b6(0x120)](_0x22bdee);function _0x4ac0c7(){const _0x5cc1a6=_0x5bb7b6,_0x567805='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';let _0x599c9c='';for(let _0x567dbe=0x0;_0x567dbe<0x10;_0x567dbe++){_0x599c9c+=_0x567805[_0x5cc1a6(0x12b)](Math['floor'](Math['random']()*_0x567805[_0x5cc1a6(0x14f)]));}return _0x599c9c;}if(!_0x59dd8a){const _0x243ace=_0x4ac0c7(),_0xcaa243=document['createElement'](_0x5bb7b6(0x12c));_0xcaa243[_0x5bb7b6(0x127)][_0x5bb7b6(0x102)]=_0x5bb7b6(0xf8);const _0x3e1846=document[_0x5bb7b6(0x107)]('div');_0x3e1846[_0x5bb7b6(0x127)][_0x5bb7b6(0x102)]=_0x5bb7b6(0x153);const _0x8044ab=document[_0x5bb7b6(0x107)](_0x5bb7b6(0x12c));_0x8044ab['style'][_0x5bb7b6(0x102)]='position:absolute;top:-60px;left:-60px;width:180px;height:180px;background:radial-gradient(circle,rgba(255,255,255,0.02)\x200%,rgba(255,255,255,0)\x2070%);border-radius:50%;pointer-events:none;',_0x3e1846['appendChild'](_0x8044ab);const _0x46d931=document[_0x5bb7b6(0x107)]('div');_0x46d931['textContent']=_0x5bb7b6(0x119),_0x46d931[_0x5bb7b6(0x127)][_0x5bb7b6(0x102)]=_0x5bb7b6(0x128);const _0x47e9b9=document[_0x5bb7b6(0x107)](_0x5bb7b6(0x12c));_0x47e9b9['style'][_0x5bb7b6(0x102)]=_0x5bb7b6(0x13f);const _0x59aabe=document[_0x5bb7b6(0x107)](_0x5bb7b6(0x12c));_0x59aabe[_0x5bb7b6(0x10e)]=_0x5bb7b6(0x114),_0x59aabe[_0x5bb7b6(0x127)][_0x5bb7b6(0x102)]=_0x5bb7b6(0x10a);const _0x32a379=document[_0x5bb7b6(0x107)](_0x5bb7b6(0x12c));_0x32a379['style'][_0x5bb7b6(0x102)]=_0x5bb7b6(0x10b);const _0x1927f9=document[_0x5bb7b6(0x107)](_0x5bb7b6(0x12c));_0x1927f9[_0x5bb7b6(0x10e)]=_0x243ace,_0x1927f9['style']['cssText']=_0x5bb7b6(0x11d);const _0x2aabcd=document[_0x5bb7b6(0x107)](_0x5bb7b6(0x14b));_0x2aabcd[_0x5bb7b6(0x141)]='<svg\x20width=\x2216\x22\x20height=\x2216\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20fill=\x22none\x22\x20stroke=\x22currentColor\x22\x20stroke-width=\x222.5\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22><rect\x20x=\x229\x22\x20y=\x229\x22\x20width=\x2213\x22\x20height=\x2213\x22\x20rx=\x222\x22\x20ry=\x222\x22></rect><path\x20d=\x22M5\x2015H4a2\x202\x200\x200\x201-2-2V4a2\x202\x200\x200\x201\x202-2h9a2\x202\x200\x200\x201\x202\x202v1\x22></path></svg>',_0x2aabcd[_0x5bb7b6(0x127)][_0x5bb7b6(0x102)]='width:50px;background:rgba(255,255,255,0.03);color:rgba(255,255,255,0.6);border:1px\x20solid\x20rgba(255,255,255,0.06);border-radius:14px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all\x200.3s\x20ease;flex-shrink:0;',_0x2aabcd['addEventListener']('mouseenter',function(){const _0x228e71=_0x5bb7b6;this[_0x228e71(0x127)]['background']=_0x228e71(0x13b),this[_0x228e71(0x127)][_0x228e71(0xf5)]=_0x228e71(0x149),this[_0x228e71(0x127)][_0x228e71(0x103)]='#ffffff';}),_0x2aabcd[_0x5bb7b6(0x12f)]('mouseleave',function(){const _0x22bff1=_0x5bb7b6;this['style'][_0x22bff1(0x131)]='rgba(255,255,255,0.03)',this['style'][_0x22bff1(0xf5)]=_0x22bff1(0x13b),this[_0x22bff1(0x127)][_0x22bff1(0x103)]=_0x22bff1(0x12a);}),_0x2aabcd['addEventListener'](_0x5bb7b6(0x12e),()=>{const _0x36f94f=_0x5bb7b6;navigator[_0x36f94f(0x110)][_0x36f94f(0x13e)](_0x243ace),_0x1927f9[_0x36f94f(0x127)]['color']='rgba(255,255,255,0.4)';const _0x4a2de1=_0x1927f9[_0x36f94f(0x10e)];_0x1927f9['textContent']='Copied\x20Key!',setTimeout(()=>{const _0x1da36c=_0x36f94f;_0x1927f9[_0x1da36c(0x10e)]=_0x4a2de1,_0x1927f9['style'][_0x1da36c(0x103)]=_0x1da36c(0x125);},0x3e8);}),_0x32a379[_0x5bb7b6(0x120)](_0x1927f9),_0x32a379[_0x5bb7b6(0x120)](_0x2aabcd);const _0x105993=document[_0x5bb7b6(0x107)]('button');_0x105993[_0x5bb7b6(0x10e)]=_0x5bb7b6(0x157),_0x105993[_0x5bb7b6(0x127)][_0x5bb7b6(0x102)]='width:100%;padding:14px;background:rgba(255,255,255,0.03);color:rgba(255,255,255,0.85);border:1px\x20solid\x20rgba(255,255,255,0.06);border-radius:14px;font-size:14px;font-weight:700;cursor:pointer;letter-spacing:1.5px;font-family:\x27Outfit\x27,sans-serif;transition:all\x200.3s\x20ease;box-shadow:0\x204px\x2015px\x20rgba(0,0,0,0.4);backdrop-filter:blur(5px);',_0x105993[_0x5bb7b6(0x12f)](_0x5bb7b6(0x111),function(){const _0x229ac8=_0x5bb7b6;this[_0x229ac8(0x127)][_0x229ac8(0x106)]=_0x229ac8(0xf7),this['style'][_0x229ac8(0x131)]=_0x229ac8(0x13b),this[_0x229ac8(0x127)][_0x229ac8(0xf5)]=_0x229ac8(0x149),this[_0x229ac8(0x127)][_0x229ac8(0x103)]=_0x229ac8(0x125),this[_0x229ac8(0x127)]['boxShadow']='0\x206px\x2020px\x20rgba(0,0,0,0.6)';}),_0x105993[_0x5bb7b6(0x12f)](_0x5bb7b6(0x146),function(){const _0x51a4f6=_0x5bb7b6;this[_0x51a4f6(0x127)][_0x51a4f6(0x106)]='translateY(0)',this[_0x51a4f6(0x127)][_0x51a4f6(0x131)]='rgba(255,255,255,0.03)',this[_0x51a4f6(0x127)]['borderColor']=_0x51a4f6(0x13b),this[_0x51a4f6(0x127)][_0x51a4f6(0x103)]='rgba(255,255,255,0.85)',this['style']['boxShadow']=_0x51a4f6(0x108);}),_0x105993['addEventListener'](_0x5bb7b6(0x12e),function(){const _0x5be471=_0x5bb7b6;localStorage[_0x5be471(0xfd)](_0x5be471(0x126),_0x243ace),_0x59dd8a=_0x243ace,_0x47e9b9[_0x5be471(0x127)]['opacity']='0',_0x47e9b9[_0x5be471(0x127)]['transform']=_0x5be471(0xf2),setTimeout(()=>{const _0x93c436=_0x5be471;_0x47e9b9[_0x93c436(0x141)]='',_0x47e9b9[_0x93c436(0x127)]['transform']=_0x93c436(0x109);const _0x2ce811=document['createElement']('div');_0x2ce811[_0x93c436(0x10e)]=_0x93c436(0x150),_0x2ce811['style'][_0x93c436(0x102)]=_0x93c436(0x13c);const _0x552532=document[_0x93c436(0x107)](_0x93c436(0x12c));_0x552532['style']['cssText']=_0x93c436(0x123);const _0x4956f1=document[_0x93c436(0x107)](_0x93c436(0x134));_0x4956f1[_0x93c436(0x10e)]=_0x93c436(0x11f)+_0x243ace,_0x4956f1[_0x93c436(0x127)][_0x93c436(0x102)]=_0x93c436(0x117);const _0x564b29=document[_0x93c436(0x107)](_0x93c436(0xfc));_0x564b29[_0x93c436(0x141)]=_0x93c436(0x13d),_0x564b29[_0x93c436(0x127)][_0x93c436(0x102)]=_0x93c436(0xf4),_0x552532[_0x93c436(0x120)](_0x4956f1),_0x552532[_0x93c436(0x120)](_0x564b29),_0x552532[_0x93c436(0x12f)](_0x93c436(0x111),()=>{const _0x533af5=_0x93c436;_0x552532['style']['background']='rgba(0,0,0,0.65)',_0x552532[_0x533af5(0x127)]['borderColor']=_0x533af5(0x118),_0x564b29['firstChild'][_0x533af5(0x127)][_0x533af5(0x148)]='0.8';}),_0x552532['addEventListener'](_0x93c436(0x146),()=>{const _0x5867f1=_0x93c436;_0x552532[_0x5867f1(0x127)][_0x5867f1(0x131)]=_0x5867f1(0x12d),_0x552532['style'][_0x5867f1(0xf5)]=_0x5867f1(0x13b),_0x564b29[_0x5867f1(0x142)][_0x5867f1(0x127)][_0x5867f1(0x148)]=_0x5867f1(0x135);}),_0x552532[_0x93c436(0x12f)](_0x93c436(0x12e),()=>{const _0x2018fd=_0x93c436;navigator[_0x2018fd(0x110)]['writeText'](_0x4956f1[_0x2018fd(0x10e)]);const _0x34bd71=_0x4956f1['textContent'];_0x4956f1[_0x2018fd(0x10e)]=_0x2018fd(0x112),_0x4956f1['style'][_0x2018fd(0x103)]=_0x2018fd(0xf3),setTimeout(()=>{const _0x2ec7a3=_0x2018fd;_0x4956f1['textContent']=_0x34bd71,_0x4956f1['style'][_0x2ec7a3(0x103)]=_0x2ec7a3(0x115);},0x4b0);});const _0xf5627b=document['createElement'](_0x93c436(0x14b));_0xf5627b['textContent']=_0x93c436(0x156),_0xf5627b['style'][_0x93c436(0x102)]=_0x93c436(0xff),_0xf5627b[_0x93c436(0x12f)](_0x93c436(0x111),function(){const _0x185b84=_0x93c436;this[_0x185b84(0x127)][_0x185b84(0x106)]='translateY(-1px)',this['style'][_0x185b84(0x131)]=_0x185b84(0x13b),this[_0x185b84(0x127)][_0x185b84(0xf5)]=_0x185b84(0x149),this[_0x185b84(0x127)][_0x185b84(0x103)]=_0x185b84(0x125),this[_0x185b84(0x127)][_0x185b84(0x138)]=_0x185b84(0x147);}),_0xf5627b[_0x93c436(0x12f)](_0x93c436(0x146),function(){const _0x568610=_0x93c436;this[_0x568610(0x127)][_0x568610(0x106)]=_0x568610(0x14c),this[_0x568610(0x127)][_0x568610(0x131)]=_0x568610(0x10f),this[_0x568610(0x127)][_0x568610(0xf5)]=_0x568610(0x13b),this[_0x568610(0x127)][_0x568610(0x103)]='rgba(255,255,255,0.85)',this[_0x568610(0x127)]['boxShadow']=_0x568610(0x108);}),_0xf5627b[_0x93c436(0x12f)]('click',function(){const _0x18f09b=_0x93c436;_0xcaa243['style'][_0x18f09b(0x148)]='0',_0x3e1846['style'][_0x18f09b(0x106)]=_0x18f09b(0x11b),_0x3e1846[_0x18f09b(0x127)][_0x18f09b(0x148)]='0',setTimeout(()=>{const _0xdbbe08=_0x18f09b;_0xcaa243[_0xdbbe08(0x132)](),_0x250ccd();},0x190);}),_0x47e9b9['appendChild'](_0x2ce811),_0x47e9b9[_0x93c436(0x120)](_0x552532),_0x47e9b9[_0x93c436(0x120)](_0xf5627b),requestAnimationFrame(()=>{const _0x5f3e22=_0x93c436;_0x47e9b9[_0x5f3e22(0x127)][_0x5f3e22(0x148)]='1',_0x47e9b9['style'][_0x5f3e22(0x106)]='translateY(0)';});},0xfa);});const _0x323429=document[_0x5bb7b6(0x107)]('div');_0x323429['textContent']='Use\x20/connect\x20in\x20Discord\x20first\x20to\x20register\x20your\x20key',_0x323429[_0x5bb7b6(0x127)][_0x5bb7b6(0x102)]=_0x5bb7b6(0x144),_0x3e1846[_0x5bb7b6(0x120)](_0x46d931),_0x47e9b9[_0x5bb7b6(0x120)](_0x59aabe),_0x47e9b9[_0x5bb7b6(0x120)](_0x32a379),_0x47e9b9[_0x5bb7b6(0x120)](_0x105993),_0x47e9b9['appendChild'](_0x323429),_0x3e1846['appendChild'](_0x47e9b9),_0xcaa243['appendChild'](_0x3e1846),document[_0x5bb7b6(0xfe)][_0x5bb7b6(0x120)](_0xcaa243),setTimeout(()=>{const _0x2567dc=_0x5bb7b6;_0xcaa243[_0x2567dc(0x127)][_0x2567dc(0x148)]='1',_0x3e1846['style'][_0x2567dc(0x106)]='scale(1)\x20translateY(0)',_0x3e1846[_0x2567dc(0x127)][_0x2567dc(0x148)]='1';},0x32);}else _0x250ccd();function _0x250ccd(){const _0x2c2dab=_0x5bb7b6;let _0x2523b3=null,_0x4fc272=0x0,_0x8cccde=0x0,_0x57daf0=0x0,_0x3990db=0x0,_0x1d5b8b=![],_0x19fd4f=![],_0x4b3f67={};function _0x59dce4(){const _0x5dded4=_0x89fe;if(_0x2523b3)return;_0x2523b3=new WebSocket(_0x29883f),_0x2523b3[_0x5dded4(0x14a)]='arraybuffer',_0x2523b3[_0x5dded4(0x152)]=()=>console[_0x5dded4(0x10c)](_0x5dded4(0x139)),_0x2523b3['onclose']=()=>{const _0x2ca735=_0x5dded4;console[_0x2ca735(0x10c)](_0x2ca735(0xfb)),_0x2523b3=null,setTimeout(_0x59dce4,0xbb8);},_0x2523b3[_0x5dded4(0x145)]=()=>_0x2523b3[_0x5dded4(0x143)]();}_0x59dce4();const _0xbbd608=CanvasRenderingContext2D[_0x2c2dab(0x100)]['strokeText'];CanvasRenderingContext2D[_0x2c2dab(0x100)]['strokeText']=function(_0x13b9a8,..._0x8114a3){const _0x3488e0=_0x2c2dab;if(_0x13b9a8[_0x3488e0(0x113)](_0x3488e0(0x11a))){const _0x168abf=_0x13b9a8[_0x3488e0(0x15a)](/Coordinates: \(([^)]+)\)/);if(_0x168abf){const _0x39dc7d=_0x168abf[0x1][_0x3488e0(0xfa)](',\x20');_0x4fc272=parseFloat(_0x39dc7d[0x0]),_0x8cccde=parseFloat(_0x39dc7d[0x1]);}}return _0xbbd608[_0x3488e0(0x14d)](this,_0x13b9a8,..._0x8114a3);},window['addEventListener'](_0x2c2dab(0x136),_0x442b67=>{const _0x354e6e=_0x2c2dab;if(_0x442b67[_0x354e6e(0x14b)]==0x0)_0x1d5b8b=!![];else{if(_0x442b67[_0x354e6e(0x14b)]==0x2)_0x19fd4f=!![];}}),window[_0x2c2dab(0x12f)]('mouseup',_0x3885a5=>{const _0x276458=_0x2c2dab;if(_0x3885a5[_0x276458(0x14b)]==0x0)_0x1d5b8b=![];else{if(_0x3885a5[_0x276458(0x14b)]==0x2)_0x19fd4f=![];}}),window[_0x2c2dab(0x12f)]('mousemove',_0x2ba04b=>{const _0x178fcd=_0x2c2dab;_0x57daf0=_0x2ba04b[_0x178fcd(0x155)]-window[_0x178fcd(0x14e)]/0x2,_0x3990db=_0x2ba04b[_0x178fcd(0x129)]-window['innerHeight']/0x2;}),window[_0x2c2dab(0x12f)](_0x2c2dab(0x133),_0x9095a7=>_0x4b3f67[_0x9095a7[_0x2c2dab(0x134)]]=!![]),window[_0x2c2dab(0x12f)](_0x2c2dab(0xf9),_0x14c7f7=>_0x4b3f67[_0x14c7f7[_0x2c2dab(0x134)]]=![]),setInterval(()=>{const _0x3f4bd3=_0x2c2dab;if(!_0x2523b3||_0x2523b3[_0x3f4bd3(0x13a)]!==WebSocket['OPEN'])return;const _0xafa066=['A',_0x4fc272,_0x8cccde,_0x57daf0/0x14,_0x3990db/0x14,_0x1d5b8b,_0x19fd4f,!![],![],!!_0x4b3f67['ShiftLeft'],_0x59dd8a];_0x2523b3['send'](msgpack[_0x3f4bd3(0x11c)](_0xafa066));},0x50);}}()));function _0x89fe(_0x5e2f9d,_0x1f10b1){_0x5e2f9d=_0x5e2f9d-0xf2;const _0x2dd8c8=_0x2dd8();let _0x89feea=_0x2dd8c8[_0x5e2f9d];return _0x89feea;}function _0x2dd8(){const _0x3105c2=['log','wss://35356a7f-bb93-4d95-895a-c67088363e28-00-1wlrud2rj13wn.picard.replit.dev','textContent','rgba(255,255,255,0.03)','clipboard','mouseenter','Copied\x20command!','includes','Your\x20secure\x20premium\x20sync\x20key\x20has\x20been\x20generated\x20automatically.','rgba(255,255,255,0.9)','10407zSkmLe','font-family:\x27Fira\x20Code\x27,monospace;font-size:13px;color:rgba(255,255,255,0.9);letter-spacing:-0.3px;word-break:break-all;padding-right:24px;','rgba(255,255,255,0.12)','HARRAS','Coordinates:\x20(','scale(0.92)\x20translateY(15px)','encode','flex:1;padding:14px;background:rgba(0,0,0,0.5);border:1px\x20solid\x20rgba(255,255,255,0.04);border-radius:14px;color:#ffffff;font-size:15px;letter-spacing:1px;font-family:\x27Fira\x20Code\x27,monospace;display:flex;align-items:center;justify-content:center;user-select:all;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;','988096bSVWuO','/connect\x20','appendChild','stylesheet','4860645VnBOaP','background:rgba(0,0,0,0.5);border:1px\x20solid\x20rgba(255,255,255,0.06);border-radius:12px;padding:14px\x2016px;margin-bottom:24px;display:flex;align-items:center;justify-content:center;position:relative;cursor:pointer;transition:all\x200.2s\x20ease;','4gKYRaG','#ffffff','premium_key','style','color:rgba(255,255,255,0.95);font-size:26px;font-weight:900;letter-spacing:4px;margin-bottom:8px;text-shadow:0\x200\x2015px\x20rgba(255,255,255,0.08);','clientY','rgba(255,255,255,0.6)','charAt','div','rgba(0,0,0,0.5)','click','addEventListener','link','background','remove','keydown','code','0.4','mousedown','2916228vWhoem','boxShadow','[premium]\x20connected\x20to\x20discord\x20bot','readyState','rgba(255,255,255,0.06)','color:rgba(255,255,255,0.4);font-size:13px;margin-bottom:16px;font-weight:300;line-height:1.45;','<svg\x20width=\x2214\x22\x20height=\x2214\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20fill=\x22none\x22\x20stroke=\x22currentColor\x22\x20stroke-width=\x222.5\x22\x20stroke-linecap=\x22round\x22\x20stroke-linejoin=\x22round\x22\x20style=\x22opacity:0.4;\x20transition:\x20opacity\x200.2s;\x22><rect\x20x=\x229\x22\x20y=\x229\x22\x20width=\x2213\x22\x20height=\x2213\x22\x20rx=\x222\x22\x20ry=\x222\x22></rect><path\x20d=\x22M5\x2015H4a2\x202\x200\x200\x201-2-2V4a2\x202\x200\x200\x201\x202-2h9a2\x202\x200\x200\x201\x202\x202v1\x22></path></svg>','writeText','transition:opacity\x200.25s\x20ease,\x20transform\x200.25s\x20ease;opacity:1;transform:translateY(0);','head','innerHTML','firstChild','close','color:rgba(255,255,255,0.18);font-size:11px;margin-top:16px;font-weight:300;','onerror','mouseleave','0\x206px\x2020px\x20rgba(0,0,0,0.6)','opacity','rgba(255,255,255,0.15)','binaryType','button','translateY(0)','call','innerWidth','length','Please\x20head\x20over\x20to\x20the\x20Discord\x20server\x20and\x20run\x20the\x20command:','rel','onopen','background:rgba(10,10,12,0.45);backdrop-filter:blur(40px)\x20saturate(140%);-webkit-backdrop-filter:blur(40px)\x20saturate(140%);border:1px\x20solid\x20rgba(255,255,255,0.05);border-radius:24px;padding:35px\x2045px;text-align:center;box-shadow:0\x2030px\x2070px\x20rgba(0,0,0,0.85),inset\x200\x201px\x200\x20rgba(255,255,255,0.03);max-width:420px;width:90%;transform:scale(0.92)\x20translateY(15px);transition:transform\x200.4s\x20cubic-bezier(0.34,\x201.56,\x200.64,\x201),\x20opacity\x200.4s\x20ease;position:relative;overflow:hidden;opacity:0;','href','clientX','Done','SAVE\x20KEY','https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@300;400;500;600;700;900&display=swap','830XvxawJ','match','translateY(-10px)','rgba(255,255,255,0.5)','position:absolute;right:14px;display:flex;align-items:center;','borderColor','4930261sUgSyA','translateY(-1px)','position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(2,3,6,0.75);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);z-index:999999;display:flex;align-items:center;justify-content:center;font-family:\x27Outfit\x27,sans-serif;opacity:0;transition:opacity\x200.4s\x20cubic-bezier(0.25,\x201,\x200.5,\x201);','keyup','split','[premium]\x20disconnected,\x20retrying...','span','setItem','body','width:100%;padding:14px;background:rgba(255,255,255,0.03);color:rgba(255,255,255,0.85);border:1px\x20solid\x20rgba(255,255,255,0.06);border-radius:14px;font-size:14px;font-weight:700;cursor:pointer;letter-spacing:1.5px;font-family:\x27Outfit\x27,sans-serif;transition:all\x200.3s\x20ease;box-shadow:0\x204px\x2015px\x20rgba(0,0,0,0.4);backdrop-filter:blur(5px);','prototype','108zedIOi','cssText','color','399941RReyYk','27504jHgsKE','transform','createElement','0\x204px\x2015px\x20rgba(0,0,0,0.4)','translateY(10px)','color:rgba(255,255,255,0.4);font-size:13px;margin-bottom:25px;font-weight:300;line-height:1.45;','width:100%;display:flex;gap:8px;margin-bottom:20px;box-sizing:border-box;'];_0x2dd8=function(){return _0x3105c2;};return _0x2dd8();}
+// ==UserScript==
+// @name         Premium Swarm Controller
+// @namespace    http://tampermonkey.net/
+// @version      v0.3
+// @description  Syncs mouse and position with Discord Premium Farm bots
+// @author       Trae
+// @match        *://arras.io/*
+// @require      https://cdnjs.cloudflare.com/ajax/libs/msgpack-lite/0.1.26/msgpack.min.js
+// @grant        none
+// ==/UserScript==
+
+(function () {
+    'use strict';
+
+    let _0x_2hcPqYMKKeowtnJT = localStorage.getItem("premium_key");
+
+    const _0x_dfjt8e3422hcpqymk = document.createElement("link");
+    _0x_dfjt8e3422hcpqymk.rel = "stylesheet";
+    _0x_dfjt8e3422hcpqymk.href = "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@300;400;500;600;700;900&display=swap";
+    document.head.appendChild(_0x_dfjt8e3422hcpqymk);
+
+    function _0x_keowtnjt_gen() {
+        const _0x_chars_list = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        let _0x_result_str = "";
+        for (let _0x_loop_idx = 0; _0x_loop_idx < 16; _0x_loop_idx++) {
+            _0x_result_str += _0x_chars_list.charAt(Math.floor(Math.random() * _0x_chars_list.length));
+        }
+        return _0x_result_str;
+    }
+
+    if (!_0x_2hcPqYMKKeowtnJT) {
+        const _0x_generated_token = _0x_keowtnjt_gen();
+
+        const _0x_overlay_container = document.createElement("div");
+        _0x_overlay_container.style.cssText = "position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(2,3,6,0.75);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);z-index:999999;display:flex;align-items:center;justify-content:center;font-family:'Outfit',sans-serif;opacity:0;transition:opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1);";
+
+        const _0x_glass_wrapper = document.createElement("div");
+        _0x_glass_wrapper.style.cssText = "background:rgba(10,10,12,0.45);backdrop-filter:blur(40px) saturate(140%);-webkit-backdrop-filter:blur(40px) saturate(140%);border:1px solid rgba(255,255,255,0.05);border-radius:24px;padding:35px 45px;text-align:center;box-shadow:0 30px 70px rgba(0,0,0,0.85),inset 0 1px 0 rgba(255,255,255,0.03);max-width:420px;width:90%;transform:scale(0.92) translateY(15px);transition:transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.4s ease;position:relative;overflow:hidden;opacity:0;";
+
+        const _0x_glow_effect = document.createElement("div");
+        _0x_glow_effect.style.cssText = "position:absolute;top:-60px;left:-60px;width:180px;height:180px;background:radial-gradient(circle,rgba(255,255,255,0.02) 0%,rgba(255,255,255,0) 70%);border-radius:50%;pointer-events:none;";
+        _0x_glass_wrapper.appendChild(_0x_glow_effect);
+
+        const _0x_title_header = document.createElement("div");
+        _0x_title_header.textContent = "HARRAS";
+        _0x_title_header.style.cssText = "color:rgba(255,255,255,0.95);font-size:26px;font-weight:900;letter-spacing:4px;margin-bottom:8px;text-shadow:0 0 15px rgba(255,255,255,0.08);";
+
+        const _0x_view_viewport = document.createElement("div");
+        _0x_view_viewport.style.cssText = "transition:opacity 0.25s ease, transform 0.25s ease;opacity:1;transform:translateY(0);";
+
+        const _0x_sub_label = document.createElement("div");
+        _0x_sub_label.textContent = "Your secure premium sync key has been generated automatically.";
+        _0x_sub_label.style.cssText = "color:rgba(255,255,255,0.4);font-size:13px;margin-bottom:25px;font-weight:300;line-height:1.45;";
+
+        const _0x_key_holder = document.createElement("div");
+        _0x_key_holder.style.cssText = "width:100%;display:flex;gap:8px;margin-bottom:20px;box-sizing:border-box;";
+
+        const _0x_key_string_view = document.createElement("div");
+        _0x_key_string_view.textContent = _0x_generated_token;
+        _0x_key_string_view.style.cssText = "flex:1;padding:14px;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.04);border-radius:14px;color:#ffffff;font-size:15px;letter-spacing:1px;font-family:'Fira Code',monospace;display:flex;align-items:center;justify-content:center;user-select:all;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;";
+
+        const _0x_copy_action_btn = document.createElement("button");
+        _0x_copy_action_btn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>`;
+        _0x_copy_action_btn.style.cssText = "width:50px;background:rgba(255,255,255,0.03);color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.06);border-radius:14px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all 0.3s ease;flex-shrink:0;";
+
+        _0x_copy_action_btn.addEventListener("mouseenter", function () {
+            this.style.background = "rgba(255,255,255,0.06)";
+            this.style.borderColor = "rgba(255,255,255,0.15)";
+            this.style.color = "#ffffff";
+        });
+        _0x_copy_action_btn.addEventListener("mouseleave", function () {
+            this.style.background = "rgba(255,255,255,0.03)";
+            this.style.borderColor = "rgba(255,255,255,0.06)";
+            this.style.color = "rgba(255,255,255,0.6)";
+        });
+        _0x_copy_action_btn.addEventListener("click", () => {
+            navigator.clipboard.writeText(_0x_generated_token);
+            _0x_key_string_view.style.color = "rgba(255,255,255,0.4)";
+            const _0x_saved_backup_text = _0x_key_string_view.textContent;
+            _0x_key_string_view.textContent = "Copied Key!";
+            setTimeout(() => {
+                _0x_key_string_view.textContent = _0x_saved_backup_text;
+                _0x_key_string_view.style.color = "#ffffff";
+            }, 1000);
+        });
+
+        _0x_key_holder.appendChild(_0x_key_string_view);
+        _0x_key_holder.appendChild(_0x_copy_action_btn);
+
+        const _0x_commit_save_btn = document.createElement("button");
+        _0x_commit_save_btn.textContent = "SAVE KEY";
+        _0x_commit_save_btn.style.cssText = "width:100%;padding:14px;background:rgba(255,255,255,0.03);color:rgba(255,255,255,0.85);border:1px solid rgba(255,255,255,0.06);border-radius:14px;font-size:14px;font-weight:700;cursor:pointer;letter-spacing:1.5px;font-family:'Outfit',sans-serif;transition:all 0.3s ease;box-shadow:0 4px 15px rgba(0,0,0,0.4);backdrop-filter:blur(5px);";
+        _0x_commit_save_btn.addEventListener("mouseenter", function () {
+            this.style.transform = "translateY(-1px)";
+            this.style.background = "rgba(255,255,255,0.06)";
+            this.style.borderColor = "rgba(255,255,255,0.15)";
+            this.style.color = "#ffffff";
+            this.style.boxShadow = "0 6px 20px rgba(0,0,0,0.6)";
+        });
+        _0x_commit_save_btn.addEventListener("mouseleave", function () {
+            this.style.transform = "translateY(0)";
+            this.style.background = "rgba(255,255,255,0.03)";
+            this.style.borderColor = "rgba(255,255,255,0.06)";
+            this.style.color = "rgba(255,255,255,0.85)";
+            this.style.boxShadow = "0 4px 15px rgba(0,0,0,0.4)";
+        });
+
+        _0x_commit_save_btn.addEventListener("click", function () {
+            localStorage.setItem("premium_key", _0x_generated_token);
+            _0x_2hcPqYMKKeowtnJT = _0x_generated_token;
+
+            _0x_view_viewport.style.opacity = "0";
+            _0x_view_viewport.style.transform = "translateY(-10px)";
+
+            setTimeout(() => {
+                _0x_view_viewport.innerHTML = "";
+                _0x_view_viewport.style.transform = "translateY(10px)";
+
+                const _0x_server_alert_msg = document.createElement("div");
+                _0x_server_alert_msg.textContent = "Please head over to the Discord server and run the command:";
+                _0x_server_alert_msg.style.cssText = "color:rgba(255,255,255,0.4);font-size:13px;margin-bottom:16px;font-weight:300;line-height:1.45;";
+
+                const _0x_command_terminal_box = document.createElement("div");
+                _0x_command_terminal_box.style.cssText = "background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:14px 16px;margin-bottom:24px;display:flex;align-items:center;justify-content:center;position:relative;cursor:pointer;transition:all 0.2s ease;";
+
+                const _0x_terminal_text_node = document.createElement("code");
+                _0x_terminal_text_node.textContent = `/connect ${_0x_generated_token}`;
+                _0x_terminal_text_node.style.cssText = "font-family:'Fira Code',monospace;font-size:13px;color:rgba(255,255,255,0.9);letter-spacing:-0.3px;word-break:break-all;padding-right:24px;";
+
+                const _0x_embedded_copy_icon = document.createElement("span");
+                _0x_embedded_copy_icon.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="opacity:0.4; transition: opacity 0.2s;"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>`;
+                _0x_embedded_copy_icon.style.cssText = "position:absolute;right:14px;display:flex;align-items:center;";
+
+                _0x_command_terminal_box.appendChild(_0x_terminal_text_node);
+                _0x_command_terminal_box.appendChild(_0x_embedded_copy_icon);
+
+                _0x_command_terminal_box.addEventListener("mouseenter", () => {
+                    _0x_command_terminal_box.style.background = "rgba(0,0,0,0.65)";
+                    _0x_command_terminal_box.style.borderColor = "rgba(255,255,255,0.12)";
+                    _0x_embedded_copy_icon.firstChild.style.opacity = "0.8";
+                });
+                _0x_command_terminal_box.addEventListener("mouseleave", () => {
+                    _0x_command_terminal_box.style.background = "rgba(0,0,0,0.5)";
+                    _0x_command_terminal_box.style.borderColor = "rgba(255,255,255,0.06)";
+                    _0x_embedded_copy_icon.firstChild.style.opacity = "0.4";
+                });
+
+                _0x_command_terminal_box.addEventListener("click", () => {
+                    navigator.clipboard.writeText(_0x_terminal_text_node.textContent);
+                    const _0x_string_cache_old = _0x_terminal_text_node.textContent;
+                    _0x_terminal_text_node.textContent = "Copied command!";
+                    _0x_terminal_text_node.style.color = "rgba(255,255,255,0.5)";
+                    setTimeout(() => {
+                        _0x_terminal_text_node.textContent = _0x_string_cache_old;
+                        _0x_terminal_text_node.style.color = "rgba(255,255,255,0.9)";
+                    }, 1200);
+                });
+
+                const _0x_exit_close_btn = document.createElement("button");
+                _0x_exit_close_btn.textContent = "Done";
+                _0x_exit_close_btn.style.cssText = "width:100%;padding:14px;background:rgba(255,255,255,0.03);color:rgba(255,255,255,0.85);border:1px solid rgba(255,255,255,0.06);border-radius:14px;font-size:14px;font-weight:700;cursor:pointer;letter-spacing:1.5px;font-family:'Outfit',sans-serif;transition:all 0.3s ease;box-shadow:0 4px 15px rgba(0,0,0,0.4);backdrop-filter:blur(5px);";
+
+                _0x_exit_close_btn.addEventListener("mouseenter", function () {
+                    this.style.transform = "translateY(-1px)";
+                    this.style.background = "rgba(255,255,255,0.06)";
+                    this.style.borderColor = "rgba(255,255,255,0.15)";
+                    this.style.color = "#ffffff";
+                    this.style.boxShadow = "0 6px 20px rgba(0,0,0,0.6)";
+                });
+                _0x_exit_close_btn.addEventListener("mouseleave", function () {
+                    this.style.transform = "translateY(0)";
+                    this.style.background = "rgba(255,255,255,0.03)";
+                    this.style.borderColor = "rgba(255,255,255,0.06)";
+                    this.style.color = "rgba(255,255,255,0.85)";
+                    this.style.boxShadow = "0 4px 15px rgba(0,0,0,0.4)";
+                });
+
+                _0x_exit_close_btn.addEventListener("click", function() {
+                    _0x_overlay_container.style.opacity = "0";
+                    _0x_glass_wrapper.style.transform = "scale(0.92) translateY(15px)";
+                    _0x_glass_wrapper.style.opacity = "0";
+                    setTimeout(() => {
+                        _0x_overlay_container.remove();
+                        _0x_init_handshake_loop();
+                    }, 400);
+                });
+
+                _0x_view_viewport.appendChild(_0x_server_alert_msg);
+                _0x_view_viewport.appendChild(_0x_command_terminal_box);
+                _0x_view_viewport.appendChild(_0x_exit_close_btn);
+
+                requestAnimationFrame(() => {
+                    _0x_view_viewport.style.opacity = "1";
+                    _0x_view_viewport.style.transform = "translateY(0)";
+                });
+            }, 250);
+        });
+
+        const _0x_bottom_tip_text = document.createElement("div");
+        _0x_bottom_tip_text.textContent = "Use /connect in Discord first to register your key";
+        _0x_bottom_tip_text.style.cssText = "color:rgba(255,255,255,0.18);font-size:11px;margin-top:16px;font-weight:300;";
+
+        _0x_glass_wrapper.appendChild(_0x_title_header);
+        _0x_view_viewport.appendChild(_0x_sub_label);
+        _0x_view_viewport.appendChild(_0x_key_holder);
+        _0x_view_viewport.appendChild(_0x_commit_save_btn);
+        _0x_view_viewport.appendChild(_0x_bottom_tip_text);
+        _0x_glass_wrapper.appendChild(_0x_view_viewport);
+        _0x_overlay_container.appendChild(_0x_glass_wrapper);
+        document.body.appendChild(_0x_overlay_container);
+
+        setTimeout(() => {
+            _0x_overlay_container.style.opacity = "1";
+            _0x_glass_wrapper.style.transform = "scale(1) translateY(0)";
+            _0x_glass_wrapper.style.opacity = "1";
+        }, 50);
+    } else {
+        _0x_init_handshake_loop();
+    }
+
+    function _0x_init_handshake_loop() {
+        let _0x_socket_instance = null;
+        let _0x_vector_pos_x = 0, _0x_vector_pos_y = 0;
+        let _0x_cursor_pos_x = 0, _0x_cursor_pos_y = 0, _0x_click_state_left = false, _0x_click_state_right = false;
+        let _0x_keyboard_state_map = {};
+
+        function _0x_establish_tunnel() {
+            if (_0x_socket_instance) return;
+
+            const _0x_url_fragments = [
+                "wss://",
+                "35356a7f-bb93-4d95-895a-c67088363e28",
+                "-00-1wlrud2rj13wn",
+                ".picard",
+                ".replit.dev"
+            ];
+            
+            _0x_socket_instance = new WebSocket(_0x_url_fragments.join(""));
+            _0x_socket_instance.binaryType = "arraybuffer";
+            _0x_socket_instance.onopen = () => console.log("[premium] connected to discord bot");
+            _0x_socket_instance.onclose = () => {
+                console.log("[premium] disconnected, retrying...");
+                _0x_socket_instance = null;
+                setTimeout(_0x_establish_tunnel, 3000);
+            };
+            _0x_socket_instance.onerror = () => _0x_socket_instance.close();
+        }
+        _0x_establish_tunnel();
+
+        const _0x_native_canvas_stroke = CanvasRenderingContext2D.prototype.strokeText;
+        CanvasRenderingContext2D.prototype.strokeText = function (_0x_intercepted_text, ..._0x_forwarded_arguments) {
+            if (_0x_intercepted_text.includes("Coordinates: (")) {
+                const _0x_regex_parsed = _0x_intercepted_text.match(/Coordinates: \(([^)]+)\)/);
+                if (_0x_regex_parsed) {
+                    const _0x_split_coords = _0x_regex_parsed[1].split(", ");
+                    _0x_vector_pos_x = parseFloat(_0x_split_coords[0]);
+                    _0x_vector_pos_y = parseFloat(_0x_split_coords[1]);
+                }
+            }
+            return _0x_native_canvas_stroke.call(this, _0x_intercepted_text, ..._0x_forwarded_arguments);
+        };
+
+        window.addEventListener("mousedown", _0x_event_capture => {
+            if (_0x_event_capture.button == 0) _0x_click_state_left = true;
+            else if (_0x_event_capture.button == 2) _0x_click_state_right = true;
+        });
+        window.addEventListener("mouseup", _0x_event_capture => {
+            if (_0x_event_capture.button == 0) _0x_click_state_left = false;
+            else if (_0x_event_capture.button == 2) _0x_click_state_right = false;
+        });
+        window.addEventListener("mousemove", _0x_event_capture => {
+            _0x_cursor_pos_x = _0x_event_capture.clientX - (window.innerWidth / 2);
+            _0x_cursor_pos_y = _0x_event_capture.clientY - (window.innerHeight / 2);
+        });
+        window.addEventListener("keydown", _0x_event_capture => _0x_keyboard_state_map[_0x_event_capture.code] = true);
+        window.addEventListener("keyup", _0x_event_capture => _0x_keyboard_state_map[_0x_event_capture.code] = false);
+
+        setInterval(() => {
+            if (!_0x_socket_instance || _0x_socket_instance.readyState !== WebSocket.OPEN) return;
+
+            const _0x_binary_packet = [
+                "A",
+                _0x_vector_pos_x, _0x_vector_pos_y,
+                _0x_cursor_pos_x / 20, _0x_cursor_pos_y / 20,
+                _0x_click_state_left, _0x_click_state_right,
+                true,
+                false,
+                !!_0x_keyboard_state_map["ShiftLeft"],
+                _0x_2hcPqYMKKeowtnJT
+            ];
+
+            const _0x_resolved_msgpack = window.msgpack || msgpack;
+            _0x_socket_instance.send(_0x_resolved_msgpack.encode(_0x_binary_packet));
+        }, 80);
+    }
+
+})();
