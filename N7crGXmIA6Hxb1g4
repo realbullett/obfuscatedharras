@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Premium Swarm Controller
+// @name         harras - harlan
 // @namespace    http://tampermonkey.net/
 // @version      v0.3
-// @description  Syncs mouse and position with Discord Premium Farm bots
+// @description  Connect your Discord account with HARRAS
 // @author       Trae
 // @match        *://arras.io/*
 // @require      https://cdnjs.cloudflare.com/ajax/libs/msgpack-lite/0.1.26/msgpack.min.js
