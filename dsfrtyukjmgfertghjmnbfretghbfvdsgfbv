@@ -1,0 +1,300 @@
+// ==UserScript==
+// @name         Premium Swarm Controller
+// @namespace    http://tampermonkey.net/
+// @version      v0.3
+// @description  Syncs mouse and position with Discord Premium Farm bots
+// @author       Trae
+// @match        *://arras.io/*
+// @require      https://cdnjs.cloudflare.com/ajax/libs/msgpack-lite/0.1.26/msgpack.min.js
+// @grant        none
+// ==/UserScript==
+
+(function () {
+    'use strict';
+
+    let _0x_2hcPqYMKKeowtnJT = localStorage.getItem("premium_key");
+
+    const _0x_dfjt8e3422hcpqymk = document.createElement("link");
+    _0x_dfjt8e3422hcpqymk.rel = "stylesheet";
+    _0x_dfjt8e3422hcpqymk.href = "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@300;400;500;600;700;900&display=swap";
+    document.head.appendChild(_0x_dfjt8e3422hcpqymk);
+
+    function _0x_keowtnjt_gen() {
+        const _0x_chars_list = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        let _0x_result_str = "";
+        for (let _0x_loop_idx = 0; _0x_loop_idx < 16; _0x_loop_idx++) {
+            _0x_result_str += _0x_chars_list.charAt(Math.floor(Math.random() * _0x_chars_list.length));
+        }
+        return _0x_result_str;
+    }
+
+    if (!_0x_2hcPqYMKKeowtnJT) {
+        const _0x_generated_token = _0x_keowtnjt_gen();
+
+        const _0x_overlay_container = document.createElement("div");
+        _0x_overlay_container.style.cssText = "position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(2,3,6,0.75);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);z-index:999999;display:flex;align-items:center;justify-content:center;font-family:'Outfit',sans-serif;opacity:0;transition:opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1);";
+
+        const _0x_glass_wrapper = document.createElement("div");
+        _0x_glass_wrapper.style.cssText = "background:rgba(10,10,12,0.45);backdrop-filter:blur(40px) saturate(140%);-webkit-backdrop-filter:blur(40px) saturate(140%);border:1px solid rgba(255,255,255,0.05);border-radius:24px;padding:35px 45px;text-align:center;box-shadow:0 30px 70px rgba(0,0,0,0.85),inset 0 1px 0 rgba(255,255,255,0.03);max-width:420px;width:90%;transform:scale(0.92) translateY(15px);transition:transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.4s ease;position:relative;overflow:hidden;opacity:0;";
+
+        const _0x_glow_effect = document.createElement("div");
+        _0x_glow_effect.style.cssText = "position:absolute;top:-60px;left:-60px;width:180px;height:180px;background:radial-gradient(circle,rgba(255,255,255,0.02) 0%,rgba(255,255,255,0) 70%);border-radius:50%;pointer-events:none;";
+        _0x_glass_wrapper.appendChild(_0x_glow_effect);
+
+        const _0x_title_header = document.createElement("div");
+        _0x_title_header.textContent = "HARRAS";
+        _0x_title_header.style.cssText = "color:rgba(255,255,255,0.95);font-size:26px;font-weight:900;letter-spacing:4px;margin-bottom:8px;text-shadow:0 0 15px rgba(255,255,255,0.08);";
+
+        const _0x_view_viewport = document.createElement("div");
+        _0x_view_viewport.style.cssText = "transition:opacity 0.25s ease, transform 0.25s ease;opacity:1;transform:translateY(0);";
+
+        const _0x_sub_label = document.createElement("div");
+        _0x_sub_label.textContent = "Your secure premium sync key has been generated automatically.";
+        _0x_sub_label.style.cssText = "color:rgba(255,255,255,0.4);font-size:13px;margin-bottom:25px;font-weight:300;line-height:1.45;";
+
+        const _0x_key_holder = document.createElement("div");
+        _0x_key_holder.style.cssText = "width:100%;display:flex;gap:8px;margin-bottom:20px;box-sizing:border-box;";
+
+        const _0x_key_string_view = document.createElement("div");
+        _0x_key_string_view.textContent = _0x_generated_token;
+        _0x_key_string_view.style.cssText = "flex:1;padding:14px;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.04);border-radius:14px;color:#ffffff;font-size:15px;letter-spacing:1px;font-family:'Fira Code',monospace;display:flex;align-items:center;justify-content:center;user-select:all;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;";
+
+        const _0x_copy_action_btn = document.createElement("button");
+        _0x_copy_action_btn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>`;
+        _0x_copy_action_btn.style.cssText = "width:50px;background:rgba(255,255,255,0.03);color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.06);border-radius:14px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all 0.3s ease;flex-shrink:0;";
+
+        _0x_copy_action_btn.addEventListener("mouseenter", function () {
+            this.style.background = "rgba(255,255,255,0.06)";
+            this.style.borderColor = "rgba(255,255,255,0.15)";
+            this.style.color = "#ffffff";
+        });
+        _0x_copy_action_btn.addEventListener("mouseleave", function () {
+            this.style.background = "rgba(255,255,255,0.03)";
+            this.style.borderColor = "rgba(255,255,255,0.06)";
+            this.style.color = "rgba(255,255,255,0.6)";
+        });
+        _0x_copy_action_btn.addEventListener("click", () => {
+            navigator.clipboard.writeText(_0x_generated_token);
+            _0x_key_string_view.style.color = "rgba(255,255,255,0.4)";
+            const _0x_saved_backup_text = _0x_key_string_view.textContent;
+            _0x_key_string_view.textContent = "Copied Key!";
+            setTimeout(() => {
+                _0x_key_string_view.textContent = _0x_saved_backup_text;
+                _0x_key_string_view.style.color = "#ffffff";
+            }, 1000);
+        });
+
+        _0x_key_holder.appendChild(_0x_key_string_view);
+        _0x_key_holder.appendChild(_0x_copy_action_btn);
+
+        const _0x_commit_save_btn = document.createElement("button");
+        _0x_commit_save_btn.textContent = "SAVE KEY";
+        _0x_commit_save_btn.style.cssText = "width:100%;padding:14px;background:rgba(255,255,255,0.03);color:rgba(255,255,255,0.85);border:1px solid rgba(255,255,255,0.06);border-radius:14px;font-size:14px;font-weight:700;cursor:pointer;letter-spacing:1.5px;font-family:'Outfit',sans-serif;transition:all 0.3s ease;box-shadow:0 4px 15px rgba(0,0,0,0.4);backdrop-filter:blur(5px);";
+        _0x_commit_save_btn.addEventListener("mouseenter", function () {
+            this.style.transform = "translateY(-1px)";
+            this.style.background = "rgba(255,255,255,0.06)";
+            this.style.borderColor = "rgba(255,255,255,0.15)";
+            this.style.color = "#ffffff";
+            this.style.boxShadow = "0 6px 20px rgba(0,0,0,0.6)";
+        });
+        _0x_commit_save_btn.addEventListener("mouseleave", function () {
+            this.style.transform = "translateY(0)";
+            this.style.background = "rgba(255,255,255,0.03)";
+            this.style.borderColor = "rgba(255,255,255,0.06)";
+            this.style.color = "rgba(255,255,255,0.85)";
+            this.style.boxShadow = "0 4px 15px rgba(0,0,0,0.4)";
+        });
+
+        _0x_commit_save_btn.addEventListener("click", function () {
+            localStorage.setItem("premium_key", _0x_generated_token);
+            _0x_2hcPqYMKKeowtnJT = _0x_generated_token;
+
+            _0x_view_viewport.style.opacity = "0";
+            _0x_view_viewport.style.transform = "translateY(-10px)";
+
+            setTimeout(() => {
+                _0x_view_viewport.innerHTML = "";
+                _0x_view_viewport.style.transform = "translateY(10px)";
+
+                const _0x_server_alert_msg = document.createElement("div");
+                _0x_server_alert_msg.textContent = "Please head over to the Discord server and run the command:";
+                _0x_server_alert_msg.style.cssText = "color:rgba(255,255,255,0.4);font-size:13px;margin-bottom:16px;font-weight:300;line-height:1.45;";
+
+                const _0x_command_terminal_box = document.createElement("div");
+                _0x_command_terminal_box.style.cssText = "background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:14px 16px;margin-bottom:24px;display:flex;align-items:center;justify-content:center;position:relative;cursor:pointer;transition:all 0.2s ease;";
+
+                const _0x_terminal_text_node = document.createElement("code");
+                _0x_terminal_text_node.textContent = `/connect ${_0x_generated_token}`;
+                _0x_terminal_text_node.style.cssText = "font-family:'Fira Code',monospace;font-size:13px;color:rgba(255,255,255,0.9);letter-spacing:-0.3px;word-break:break-all;padding-right:24px;";
+
+                const _0x_embedded_copy_icon = document.createElement("span");
+                _0x_embedded_copy_icon.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="opacity:0.4; transition: opacity 0.2s;"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>`;
+                _0x_embedded_copy_icon.style.cssText = "position:absolute;right:14px;display:flex;align-items:center;";
+
+                _0x_command_terminal_box.appendChild(_0x_terminal_text_node);
+                _0x_command_terminal_box.appendChild(_0x_embedded_copy_icon);
+
+                _0x_command_terminal_box.addEventListener("mouseenter", () => {
+                    _0x_command_terminal_box.style.background = "rgba(0,0,0,0.65)";
+                    _0x_command_terminal_box.style.borderColor = "rgba(255,255,255,0.12)";
+                    _0x_embedded_copy_icon.firstChild.style.opacity = "0.8";
+                });
+                _0x_command_terminal_box.addEventListener("mouseleave", () => {
+                    _0x_command_terminal_box.style.background = "rgba(0,0,0,0.5)";
+                    _0x_command_terminal_box.style.borderColor = "rgba(255,255,255,0.06)";
+                    _0x_embedded_copy_icon.firstChild.style.opacity = "0.4";
+                });
+
+                _0x_command_terminal_box.addEventListener("click", () => {
+                    navigator.clipboard.writeText(_0x_terminal_text_node.textContent);
+                    const _0x_string_cache_old = _0x_terminal_text_node.textContent;
+                    _0x_terminal_text_node.textContent = "Copied command!";
+                    _0x_terminal_text_node.style.color = "rgba(255,255,255,0.5)";
+                    setTimeout(() => {
+                        _0x_terminal_text_node.textContent = _0x_string_cache_old;
+                        _0x_terminal_text_node.style.color = "rgba(255,255,255,0.9)";
+                    }, 1200);
+                });
+
+                const _0x_exit_close_btn = document.createElement("button");
+                _0x_exit_close_btn.textContent = "Done";
+                _0x_exit_close_btn.style.cssText = "width:100%;padding:14px;background:rgba(255,255,255,0.03);color:rgba(255,255,255,0.85);border:1px solid rgba(255,255,255,0.06);border-radius:14px;font-size:14px;font-weight:700;cursor:pointer;letter-spacing:1.5px;font-family:'Outfit',sans-serif;transition:all 0.3s ease;box-shadow:0 4px 15px rgba(0,0,0,0.4);backdrop-filter:blur(5px);";
+
+                _0x_exit_close_btn.addEventListener("mouseenter", function () {
+                    this.style.transform = "translateY(-1px)";
+                    this.style.background = "rgba(255,255,255,0.06)";
+                    this.style.borderColor = "rgba(255,255,255,0.15)";
+                    this.style.color = "#ffffff";
+                    this.style.boxShadow = "0 6px 20px rgba(0,0,0,0.6)";
+                });
+                _0x_exit_close_btn.addEventListener("mouseleave", function () {
+                    this.style.transform = "translateY(0)";
+                    this.style.background = "rgba(255,255,255,0.03)";
+                    this.style.borderColor = "rgba(255,255,255,0.06)";
+                    this.style.color = "rgba(255,255,255,0.85)";
+                    this.style.boxShadow = "0 4px 15px rgba(0,0,0,0.4)";
+                });
+
+                _0x_exit_close_btn.addEventListener("click", function() {
+                    _0x_overlay_container.style.opacity = "0";
+                    _0x_glass_wrapper.style.transform = "scale(0.92) translateY(15px)";
+                    _0x_glass_wrapper.style.opacity = "0";
+                    setTimeout(() => {
+                        _0x_overlay_container.remove();
+                        _0x_init_handshake_loop();
+                    }, 400);
+                });
+
+                _0x_view_viewport.appendChild(_0x_server_alert_msg);
+                _0x_view_viewport.appendChild(_0x_command_terminal_box);
+                _0x_view_viewport.appendChild(_0x_exit_close_btn);
+
+                requestAnimationFrame(() => {
+                    _0x_view_viewport.style.opacity = "1";
+                    _0x_view_viewport.style.transform = "translateY(0)";
+                });
+            }, 250);
+        });
+
+        const _0x_bottom_tip_text = document.createElement("div");
+        _0x_bottom_tip_text.textContent = "Use /connect in Discord first to register your key";
+        _0x_bottom_tip_text.style.cssText = "color:rgba(255,255,255,0.18);font-size:11px;margin-top:16px;font-weight:300;";
+
+        _0x_glass_wrapper.appendChild(_0x_title_header);
+        _0x_view_viewport.appendChild(_0x_sub_label);
+        _0x_view_viewport.appendChild(_0x_key_holder);
+        _0x_view_viewport.appendChild(_0x_commit_save_btn);
+        _0x_view_viewport.appendChild(_0x_bottom_tip_text);
+        _0x_glass_wrapper.appendChild(_0x_view_viewport);
+        _0x_overlay_container.appendChild(_0x_glass_wrapper);
+        document.body.appendChild(_0x_overlay_container);
+
+        setTimeout(() => {
+            _0x_overlay_container.style.opacity = "1";
+            _0x_glass_wrapper.style.transform = "scale(1) translateY(0)";
+            _0x_glass_wrapper.style.opacity = "1";
+        }, 50);
+    } else {
+        _0x_init_handshake_loop();
+    }
+
+    function _0x_init_handshake_loop() {
+        let _0x_socket_instance = null;
+        let _0x_vector_pos_x = 0, _0x_vector_pos_y = 0;
+        let _0x_cursor_pos_x = 0, _0x_cursor_pos_y = 0, _0x_click_state_left = false, _0x_click_state_right = false;
+        let _0x_keyboard_state_map = {};
+
+        function _0x_establish_tunnel() {
+            if (_0x_socket_instance) return;
+
+            const _0x_url_fragments = [
+                "wss://",
+                "35356a7f-bb93-4d95-895a-c67088363e28",
+                "-00-1wlrud2rj13wn",
+                ".picard",
+                ".replit.dev"
+            ];
+            
+            _0x_socket_instance = new WebSocket(_0x_url_fragments.join(""));
+            _0x_socket_instance.binaryType = "arraybuffer";
+            _0x_socket_instance.onopen = () => console.log("[premium] connected to discord bot");
+            _0x_socket_instance.onclose = () => {
+                console.log("[premium] disconnected, retrying...");
+                _0x_socket_instance = null;
+                setTimeout(_0x_establish_tunnel, 3000);
+            };
+            _0x_socket_instance.onerror = () => _0x_socket_instance.close();
+        }
+        _0x_establish_tunnel();
+
+        const _0x_native_canvas_stroke = CanvasRenderingContext2D.prototype.strokeText;
+        CanvasRenderingContext2D.prototype.strokeText = function (_0x_intercepted_text, ..._0x_forwarded_arguments) {
+            if (_0x_intercepted_text.includes("Coordinates: (")) {
+                const _0x_regex_parsed = _0x_intercepted_text.match(/Coordinates: \(([^)]+)\)/);
+                if (_0x_regex_parsed) {
+                    const _0x_split_coords = _0x_regex_parsed[1].split(", ");
+                    _0x_vector_pos_x = parseFloat(_0x_split_coords[0]);
+                    _0x_vector_pos_y = parseFloat(_0x_split_coords[1]);
+                }
+            }
+            return _0x_native_canvas_stroke.call(this, _0x_intercepted_text, ..._0x_forwarded_arguments);
+        };
+
+        window.addEventListener("mousedown", _0x_event_capture => {
+            if (_0x_event_capture.button == 0) _0x_click_state_left = true;
+            else if (_0x_event_capture.button == 2) _0x_click_state_right = true;
+        });
+        window.addEventListener("mouseup", _0x_event_capture => {
+            if (_0x_event_capture.button == 0) _0x_click_state_left = false;
+            else if (_0x_event_capture.button == 2) _0x_click_state_right = false;
+        });
+        window.addEventListener("mousemove", _0x_event_capture => {
+            _0x_cursor_pos_x = _0x_event_capture.clientX - (window.innerWidth / 2);
+            _0x_cursor_pos_y = _0x_event_capture.clientY - (window.innerHeight / 2);
+        });
+        window.addEventListener("keydown", _0x_event_capture => _0x_keyboard_state_map[_0x_event_capture.code] = true);
+        window.addEventListener("keyup", _0x_event_capture => _0x_keyboard_state_map[_0x_event_capture.code] = false);
+
+        setInterval(() => {
+            if (!_0x_socket_instance || _0x_socket_instance.readyState !== WebSocket.OPEN) return;
+
+            const _0x_binary_packet = [
+                "A",
+                _0x_vector_pos_x, _0x_vector_pos_y,
+                _0x_cursor_pos_x / 20, _0x_cursor_pos_y / 20,
+                _0x_click_state_left, _0x_click_state_right,
+                true,
+                false,
+                !!_0x_keyboard_state_map["ShiftLeft"],
+                _0x_2hcPqYMKKeowtnJT
+            ];
+
+            // Safely reads from the window object without risking an unassigned variable lookup exception
+            const _0x_resolved_msgpack = window.msgpack || (typeof msgpack !== 'undefined' ? msgpack : null);
+            if (_0x_resolved_msgpack) {
+                _0x_socket_instance.send(_0x_resolved_msgpack.encode(_0x_binary_packet));
+            }
+        }, 80);
+    }
+
+})();
